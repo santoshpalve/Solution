@@ -11,8 +11,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class SolutionsApplication implements CommandLineRunner {
 	@Autowired
 	ConfigurableApplicationContext context;
-	@Autowired
-	ExitCodeGenerator exitCodeGenerator;
 	public static void main(String[] args) {
 		SpringApplication.run(SolutionsApplication.class, args);
 	}
